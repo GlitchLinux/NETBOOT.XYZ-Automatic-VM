@@ -12,23 +12,16 @@
 
 ## Usage
 
-1. **Download the Script:**
-
-   Save the script to a file named `netboot.xyz-autoVM.sh`.
-
-2. **Make the Script Executable:**
+1. **Download & Execute**
 
    ```bash
-   chmod +x netboot.xyz-autoVM.sh
+   cd /tmp
+   git clone https://github.com/GlitchLinux/NETBOOT.XYZ-Automatic-VM.git 
+   cd NETBOOT.XYZ-Automatic-VM
+   sudo bash netboot.xyz-autoVM.sh
    ```
 
-3. **Run the Script as Root:**
-
-   ```bash
-   sudo ./netboot.xyz-autoVM.sh
-   ```
-
-4. **Follow the Prompts:**
+2. **Follow the Prompts:**
 
    - You will be prompted to enter the amount of RAM (in MB) to allocate to the VM.
 
